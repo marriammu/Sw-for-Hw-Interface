@@ -1,0 +1,14 @@
+Peripherals.c:8:6:UART_EnableClock	16	static
+Peripherals.c:12:6:UART_Init	4	static
+Peripherals.c:22:6:UART_Transmit	24	static
+Peripherals.c:32:6:SYSCFG_clock	16	static
+Peripherals.c:37:7:Enable_External_Interrupt	16	static
+Peripherals.c:41:7:Interrupt_Mask_REG	16	static
+Peripherals.c:44:7:Falling_Edge	16	static
+Peripherals.c:48:7:NVIC_INPUT	4	static
+Peripherals.c:53:7:Pending_REG	16	static
+Peripherals.c:58:7:GPIO_EnableClock	16	static
+Peripherals.c:70:6:GPIO_Init	16	static
+Peripherals.c:79:6:GPIO_Alternate	4	static
+Peripherals.c:82:15:GPIO_WritePin	24	static
+Peripherals.c:103:15:GPIO_ReadPin	24	static
