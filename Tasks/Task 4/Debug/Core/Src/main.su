@@ -1,0 +1,4 @@
+main.c:10:6:delay30ms	16	static
+main.c:17:5:main	24	static
+main.c:58:6:Seg_Increment	4	static
+main.c:66:6:Seg_Decrement	4	static

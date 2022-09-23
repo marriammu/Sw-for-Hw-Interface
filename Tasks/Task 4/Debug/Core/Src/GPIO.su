@@ -1,0 +1,11 @@
+GPIO.c:32:6:GPIO_EnableClock	16	static
+GPIO.c:44:6:SYSCFG_clock	16	static
+GPIO.c:49:7:Enable_External_Interrupt	16	static
+GPIO.c:54:7:Interrupt_Mask_Enable	16	static
+GPIO.c:57:7:Interrupt_Mask_Disable	16	static
+GPIO.c:60:7:Falling_Edge	16	static
+GPIO.c:64:7:NVIC_INPUT	4	static
+GPIO.c:70:7:Pending_REG	16	static
+GPIO.c:75:6:GPIO_Init	16	static
+GPIO.c:85:15:GPIO_WritePin	24	static
+GPIO.c:106:15:GPIO_ReadPin	24	static
