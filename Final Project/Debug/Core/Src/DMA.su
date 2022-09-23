@@ -1,0 +1,8 @@
+DMA.c:2:6:DMA_Enable_Clock	4	static
+DMA.c:6:6:DMA_Init	16	static
+DMA.c:24:6:NVIC_INPUT	4	static
+DMA.c:29:6:DMA_FIFO	4	static
+DMA.c:34:6:Clear_Flags	4	static
+DMA.c:38:6:Enable_DMA	4	static
+DMA.c:42:6:CheckTransfer	16	static
+DMA.c:54:6:DMA2_Stream0_IRQHandler	8	static
