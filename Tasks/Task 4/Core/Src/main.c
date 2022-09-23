@@ -5,6 +5,7 @@
 #include "NVIC.h"
 #include "EXTI.h"
 #include "SYSCFG.h"
+
 void Seg_Incremet();
 
 int counter=0;
