@@ -5,12 +5,12 @@ void UART_EnableClock(char PinNum){
 }
 
 void UART_Init(){
-	*(USART_CR1)|=(0x01<<13);
-	*(USART_CR1) |= (0x01<<3);
-	*(USART_BRR)  = 0x683;
-	*(USART_CR1) &= ~(0x01<<15);
-	*(USART_CR1) &= ~(0x01<<12);
-	*(USART_CR2) &= ~(0x01<<12);
+	*(USART_CR1)|=(0x01<<13); // UART Enabeled Check
+	*(USART_CR1) |= (0x01<<3); // Transmitter Enabeled Check
+	*(USART_BRR)  = 0x683; // BuadRate
+	*(USART_CR1) &= ~(0x01<<15); //Oversampling Mode
+	*(USART_CR1) &= ~(0x01<<12); // WordLength
+	*(USART_CR2) &= ~(0x01<<12); // Stop bits
 
 	}
 void UART_Transmit( char * str){
